@@ -4,7 +4,7 @@ h2{
 }
 
 .MainParent{
-    height: 92vh;
+    height: 84vh;
     width: 92vw;
     margin: 2px;
     padding: 4px;
@@ -18,7 +18,7 @@ h2{
     margin: 2px;
     border: 2px solid black;
     padding: 8px;
-    height: 80vh;
+    height: 75vh;
     width: 25vw;
     display: flex;
     flex-direction: column;
@@ -76,4 +76,18 @@ h2{
     cursor: pointer;
     background-color: rgb(10, 0, 73);
     transform: translateY(-1px);
+}
+
+/* For Mobiles and Tablets*/
+@media only screen and (max-width:700px){
+    .MainParent{
+        gap: 0.2rem;
+        width: 96vw;
+    }
+
+    .Btn{
+        font-size: smaller;
+        font-weight: 400;
+        padding: 2px;
+    }
 }

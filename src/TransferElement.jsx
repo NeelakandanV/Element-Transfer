@@ -18,7 +18,7 @@ function TransferElement() {
             setitems([...items,val])
         }
     }
-    console.log(items)
+    // console.log(items)
 
     //handle Add function
     const handleAdd =()=>{
