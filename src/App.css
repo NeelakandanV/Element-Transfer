@@ -1,0 +1,79 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.MainParent{
+    height: 92vh;
+    width: 92vw;
+    margin: 2px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.Bucket1,.Bucket2{
+    margin: 2px;
+    border: 2px solid black;
+    padding: 8px;
+    height: 80vh;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.Bucket_Items{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 90%;
+    padding: 6px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.Bucket_Items:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.SelectedItem{
+    background-color: rgb(105, 215, 105);
+    color: white;
+}
+
+.Btn_Bucket{
+    margin: 2px;
+    border: 2px solid black;
+    padding: 8px;
+    height: 40vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.Btn{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 90%;
+    padding: 6px;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.Btn:hover{
+    cursor: pointer;
+    background-color: rgb(10, 0, 73);
+    transform: translateY(-1px);
+}
